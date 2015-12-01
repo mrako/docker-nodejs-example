@@ -1,0 +1,17 @@
+{
+  "name": "docker-nodejs-index",
+  "version": "0.0.1",
+  "description": "Simple node.js + express app",
+  "author": "Marko Klemetti <marko.klemetti@gmail.com>",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-express-server": "^0.5.1",
+    "load-grunt-tasks": "^3.3.0"
+  }
+}
