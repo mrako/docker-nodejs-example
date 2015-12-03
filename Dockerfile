@@ -19,6 +19,7 @@ WORKDIR     /src
 
 ADD         package.json /src
 ADD         app.js /src
+ADD         test.js /src
 ADD         server.js /src
 
 # TEST THE PROJECT -- FAILURE WILL HALT IMAGE CREATION
