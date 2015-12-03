@@ -36,9 +36,13 @@ module.exports = function(grunt) {
       all: [
         'Gruntfile.js', 'app.js', 'server.js'
       ]
+    },
+    simplemocha: {
+      all: { src: ['test.js'] }
     }
   });
 
   grunt.registerTask('serve', ['express:dev', 'watch']);
+  grunt.registerTask('test', ['simplemocha']);
   grunt.registerTask('default', ['jshint']);
 };
