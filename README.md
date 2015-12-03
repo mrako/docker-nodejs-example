@@ -10,6 +10,10 @@ This is an example project for running [nodejs](https://nodejs.org/) in a [docke
 
     docker run -P -d <image id>
 
+## Running interactively
+
+    docker run -ti <image id> bash
+
 ## Connecting to docker image
 
     docker ps
