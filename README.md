@@ -2,6 +2,8 @@
 
 This is an example project for running [nodejs](https://nodejs.org/) in a [docker](https://www.docker.com/) container.
 
+The application used in this docker image is [nodejs-example](https://github.com/mrako/nodejs-example).
+
 ## Building
 
     docker build .
